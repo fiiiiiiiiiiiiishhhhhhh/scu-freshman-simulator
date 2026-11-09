@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#faf4e4">
+  <meta name="description" content="从报到日到第一次设计作业，开启属于你的川大生活。设计学类新生互动体验原型。">
+  <title>川大新生手账 · 我的大学初体验</title>
+  <link rel="stylesheet" href="style.css"><link rel="stylesheet" href="choices.css"><link rel="stylesheet" href="novel.css">
+</head>
+<body class="novel-mode">
+  <header class="header">
+    <a class="brand" href="#explore" aria-label="川大新生手账首页"><span class="brand-mark">川<span>大</span></span><span>川大新生手账<small>SCU · A NEW CHAPTER</small></span></a>
+    <nav aria-label="主要页面"><button class="nav active" data-view="explore"><span>⌘</span> 剧情故事</button><button class="nav" data-view="schedule"><span>▦</span> 我的课表</button><button class="nav" data-view="journal"><span>▤</span> 成长手账</button></nav>
+    <button id="profile" class="profile"><span class="avatar-mini">川</span><span id="profile-name">新生小川</span><span class="profile-dot"></span></button>
+  </header>
+  <main>
+    <div id="app"></div>
+    <footer><span>用自己的节奏，慢慢找到方向。</span><span>文字选择体验 v0.2 · 校园底图由你提供 · 自动保存在此浏览器</span></footer>
+  </main>
+  <dialog id="modal"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="sports-data.js"></script><script src="data.js"></script><script src="story-data.js"></script><script src="scene-backgrounds.js"></script><script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" shape-rendering="crispEdges">
+  <defs><pattern id="knit" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M0 8h16M8 0v16M0 0l16 16M16 0 0 16" stroke="#fff2ce" stroke-width="1.4"/><circle cx="8" cy="8" r="3" fill="none" stroke="#fff6de" stroke-width="2"/></pattern></defs>
+  <path d="M8 21h80v28H8z" fill="#dacba6" opacity=".48"/>
+  <path d="M8 19h80v26H8z" fill="url(#knit)" stroke="#ede0bb" stroke-width="2"/>
+  <path d="M9 45q8 24 16 0 8 24 16 0 8 24 16 0 8 24 16 0 8 24 16 0" fill="none" stroke="#f7e8c7" stroke-width="3"/>
+  <path d="M16 48h3v4h-3zm16 0h3v4h-3zm16 0h3v4h-3zm16 0h3v4h-3zm16 0h3v4h-3z" fill="#fff5db"/>
+  <path d="M8 19h80" stroke="#fff4d7" stroke-width="3" stroke-dasharray="5 2"/>
+</svg>

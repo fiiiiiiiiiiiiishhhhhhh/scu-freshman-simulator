@@ -1,0 +1,49 @@
+/* Text choices are the primary interaction; the campus remains an exploration aid. */
+.campus-photo-card{background:var(--paper)}
+.campus-photo-card .map-head{padding-bottom:17px;gap:12px}
+.campus-map-preview{display:block;position:relative;width:100%;padding:0;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.campus-map-preview .campus-map-art{width:100%;height:auto;display:block}
+.campus-map-preview>span{position:absolute;bottom:12px;right:12px;border-radius:6px;background:#fffc;color:#344b3c;padding:8px 12px;font-size:10px;box-shadow:0 2px 8px #0002}
+.map-task-links{padding:16px 19px}.map-task-links>p{margin:0 0 12px;font-size:12px}.map-task-links small{display:block;color:#8a947d;font-size:10px;margin-top:6px}.map-task-links>div{display:flex;flex-wrap:wrap;gap:8px}
+.map-task-link{border:1px solid #dae1cf;border-radius:6px;padding:8px 11px;font-size:10px;background:#f2f5e9;line-height:1.7}.map-task-link:hover{background:#e2ebd7}.map-task-link.done{color:#68875c;background:#e9efdf}
+dialog:has(.map-viewer){max-width:1280px;width:94vw}
+.map-viewer-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:14px}.map-viewer-toolbar output{min-width:46px;text-align:center;font-size:12px}.map-viewer-toolbar>span{font-size:10px;color:#879178}.map-viewer-scroll{width:100%;height:min(63vh,780px);overflow:auto;border:1px solid #d5ddca;border-radius:7px;background:#fff;overscroll-behavior:contain}.map-viewer-scroll .campus-map-art{display:block;width:100%;height:auto;max-width:none}
+@media(max-width:760px){.campus-photo-card .map-head h2{font-size:17px}.map-task-links{padding:13px}.map-task-link{font-size:10px}.map-viewer-toolbar{gap:7px}.map-viewer-toolbar .secondary{padding:8px 10px}.map-viewer-scroll{height:57vh}.campus-map-preview>span{font-size:9px;padding:6px 8px}}
+.story-card{margin-top:0;margin-bottom:17px;min-height:218px;border-top:3px solid #6c8a5a}
+.story-card h2{line-height:1.6}
+.map-wrap{max-height:380px;min-height:300px}
+.map-card .campus{object-fit:contain}
+.text-choices{display:grid;gap:10px;margin-top:20px}
+.text-choice{display:flex;align-items:center;gap:12px;border:1px solid #dce2d0;background:#f5f6ed;border-radius:8px;padding:13px 14px;font-size:12px;text-align:left;line-height:1.8;transition:background .2s,border .2s}
+.text-choice:hover{background:#e7eedc;border-color:#9caf86}
+.text-choice>span{border:1px solid #b4c2a3;border-radius:5px;min-width:23px;height:23px;display:grid;place-items:center;font-family:Georgia,serif;font-size:12px;color:#7a8a69}
+.text-choice i{font-style:normal;margin-left:auto;color:#8a9b74}
+.stats-card{background:#fbfcf5}
+.stats-card .section-title{margin-bottom:20px}
+.stat-row{margin-bottom:15px}
+.stat-row>div:first-child{display:flex;justify-content:space-between;align-items:center;font-size:11px;margin-bottom:7px}
+.stat-row strong{font-size:12px;font-weight:500;font-family:Georgia,serif}
+.stat-row strong small{font-size:9px;color:#a3aa98}
+.stat-track{height:5px;border-radius:5px;background:#e8ecdf;overflow:hidden}
+.stat-track i{display:block;height:100%;border-radius:5px;transition:width .5s}
+.stat-inspiration{background:#c79b5b}.stat-hair{background:#97ac7d}.stat-grind{background:#b7836e}.stat-gpa{background:#6d8d7e}
+.delta-card{display:grid;gap:7px;background:#ecefdf;border:1px solid #dce3cd;border-radius:8px;padding:12px 15px;margin-bottom:17px;font-size:10px;line-height:1.8;color:#7d896d}
+.delta-card strong{font-weight:500;color:#58734c;font-size:11px}
+.ending-card{border:1px solid #d7dfc9;background:#f0f3e6;padding:32px;border-radius:12px;margin-bottom:30px;text-align:center}
+.ending-card .eyebrow{display:block}
+.ending-badge {
+  width: 132px;
+  aspect-ratio: 1;
+  margin: 8px auto 10px;
+  background: url('assets/ending-badges-pixel.png') var(--badge-position) / 300% 300% no-repeat;
+  image-rendering: pixelated;
+}
+.ending-card h2{font-family:var(--serif);font-size:30px;font-weight:400;margin:0 0 17px}
+.ending-card>p{font-size:13px;line-height:2;color:#758168;max-width:650px;margin:0 auto 20px}
+.ending-stats{display:flex;justify-content:center;gap:35px;margin:24px 0}
+.ending-stats span{font-size:11px;color:#7b886d}.ending-stats strong{display:block;font-family:Georgia,serif;font-size:26px;font-weight:400;color:#526a43;margin-top:8px}
+.ending-card .choices{justify-content:center}
+.stats-inline{display:none}
+.sports-filters{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:15px;background:#f1f4e8;border-radius:8px;margin:17px 0}.sports-filters label{margin:0!important;font-size:11px}.sports-filters input,.sports-filters select{margin-top:7px}.sports-filters .sports-search,.sports-filters .inline-check,.sports-filters .choices{grid-column:1/-1}.sports-filters .inline-check input{margin:0;width:auto}.sports-filters .choices{margin:0}.sports-pagination{display:flex;justify-content:center;align-items:center;gap:18px;margin:22px 0}.sports-count{font-size:11px!important}.catalog-item .sports-issue{color:#a36743}.catalog-item .sports-fit{color:#668359}
+@media(max-width:1200px){.right-rail .stats-card{display:none}.stats-inline{display:grid;grid-template-columns:repeat(4,1fr);padding:13px 10px;background:#edf1e3;border:1px solid #e0e6d2;border-radius:8px;margin-bottom:15px;text-align:center}.stats-inline span{font-size:10px;color:#869178;border-right:1px solid #d6dfc7}.stats-inline span:last-child{border-right:0}.stats-inline strong{display:block;font-family:Georgia,serif;font-size:20px;font-weight:400;color:#58714c;margin-top:5px}}
+@media(max-width:760px){.right-rail .character-card{display:none}.stats-inline{padding:10px;margin-bottom:12px}.stats-inline strong{font-size:19px}.map-wrap{max-height:none;min-height:290px}.text-choice{font-size:11px;padding:11px;gap:9px}.story-card{padding:19px 17px}.ending-card{padding:22px 15px}.ending-card h2{font-size:24px}.ending-stats{gap:20px}.ending-stats strong{font-size:22px}.ending-card>p{font-size:12px}.stats-inline:after{content:'发量、肝度为趣味值，模拟GPA不预测真实成绩';grid-column:1/-1;color:#9a9f8b;font-size:8px;padding-top:9px}.map-head{padding-top:16px}}

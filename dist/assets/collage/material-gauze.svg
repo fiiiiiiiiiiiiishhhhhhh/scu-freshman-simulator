@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" shape-rendering="crispEdges">
+  <defs><pattern id="mesh" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)"><path d="M0 0h7v1H0zm0 0h1v7H0z" fill="#e8e7bc" opacity=".83"/></pattern></defs>
+  <path d="m13 14 60-4 14 51-63 9-4-15-8-14z" fill="#a0a77a" opacity=".28"/>
+  <path d="m13 14 60-4 14 51-63 9-4-15-8-14z" fill="url(#mesh)" stroke="#8f9f7c" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <path d="m16 19 55-5m-48 45 60-9" stroke="#fff6d1" opacity=".65"/>
+</svg>

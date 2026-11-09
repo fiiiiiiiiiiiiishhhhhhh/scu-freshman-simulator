@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 80" shape-rendering="crispEdges">
+  <defs><pattern id="weave" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 0h12v12H0z" fill="#ae7865"/><path d="M0 2h12v4H0zM3 0h4v12H3z" fill="#e2ab8c" opacity=".65"/><path d="M0 8h12v1H0zm8-8h1v12H8z" fill="#f3d0a4" opacity=".55"/></pattern></defs>
+  <path d="M10 17 77 9 87 60 20 70Z" fill="#593f37" opacity=".26" transform="translate(2 3)"/>
+  <path d="M10 17 77 9 87 60 20 70Z" fill="url(#weave)" stroke="#805847" stroke-width="2"/>
+  <path d="m14 20 59-7 9 44-59 9z" fill="none" stroke="#f4cfab" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <path d="m19 68-3 8m9-9-2 8m9-9-2 7m9-8-1 7m8-9-1 7m8-8-1 7m9-9-1 7m9-8-1 7m9-8-1 7m9-8v7" fill="none" stroke="#bb896e" stroke-width="2"/>
+</svg>
